@@ -17,6 +17,7 @@ class WooZap {
 
 var $woozap_dirpath;
 var $woozap_urlpath;
+var $woozap_version;
 
 
 function __construct(){
