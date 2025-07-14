@@ -1,119 +1,88 @@
-=== WP AVCL Automation Helper (formerly WPFlyLeads)===
-Contributors: the-ank,ankitv
-Donate link: http://paypal.me/ankurvishwakarma786
-Tags: Automation, Automate leads, Webhooks, Zapier, Integromate, Pabbly, Make, WooCommerce, Gravity Forms, Contact Form 7
-Requires at least: 5.5
-Requires PHP: 5.5
-Tested up to: 6.4
-Stable tag: 3.4
-License: GPLv2 or later
+# WP AVCL Automation Helper (formerly WooZap / WPFlyLeads)
 
+A powerful automation plugin for WordPress that connects your website to Zapier, Make (Integromat), and Pabbly — enabling real-time lead and order processing from **WooCommerce**, **Contact Form 7**, and **Gravity Forms**.
 
-== Description ==
+> 🎯 Previously published on WordPress.org with 2,000+ active installs under the name **WooZap**  
+> 🛠 Maintained through 10+ versions with real-world user feedback and production use cases
 
-==WP AVCL Automation Helper supports Zapier, Make (formerly Integromat) and Pabbly to send - 
+---
 
-1. Orders from WooCommerce
-2. Submissions from the Contact Form 7
-3. Entries from the Gravity Forms
+## 🚀 Key Features
 
-To thousands of other platforms.==
+- 🔁 Send WooCommerce orders to Zapier, Make, or Pabbly with webhooks
+- 🧾 Automate submissions from **Gravity Forms** and **Contact Form 7**
+- 🛠 Customize when and how triggers fire (on order status change, manual send, or date-based)
+- 📋 New admin interface integrated inside WooCommerce
+- 🔐 Secure, lightweight, and fast – designed for real-world performance
 
+---
 
-== Notice == 
+## 📦 Supported Integrations
 
-Note: Please visit the settings page to update settings after you have switched from 2.2 to 2.5 or a later version.
+- ✅ WooCommerce (orders, coupons, custom checkout fields)
+- ✅ Contact Form 7 (per-form webhook setup via custom tab)
+- ✅ Gravity Forms (submission automation)
+- ✅ Zapier (Premium webhook support)
+- ✅ Make (formerly Integromat) & Pabbly Connect
 
-Note: To use the Zapier webhook, you must have a Zapier premium membership.
+---
 
-1. Supports new server Integromat along with Zapier to send WooCommerce Orders via webhook.
-2. Supports Contact Form 7 with a new Tab, "WP AVCL Automation Helper Settings," in each form to set up a connection and send leads to Zapier and Integromat.
-3. Moved WP AVCL Automation Helper settings underneath WooCommerce as submenu. Also, We applied fixes and corrections to the functionality of this page.
+## 📈 Usage & Setup
 
+1. Upload the plugin to `/wp-content/plugins/wp-avcl-automation-helper`
+2. Activate the plugin via **Plugins > WP AVCL Automation Helper**
+3. Configure:
+   - WooCommerce orders under **WooCommerce > WP AVCL Automation Helper**
+   - Contact Form 7 forms under each form's tab
+   - Gravity Forms in the form settings page
 
-== Thank You ==
+> Note: After upgrading from v2.x to 2.5+, open the plugin settings and re-save your configurations.
 
-Thank You for using this plugin, and We appreciate support tickets for improvements. Please let us know the modifications you need in this plugin and the more features and bugs you face. Please let us know if anyone is interested in applying for a contribution.
+---
 
-== Installation ==
+## 💬 Plugin History
 
-This section describes how to install the plugin and get it working.
+This plugin was originally known as **WooZap**, later rebranded to **WPFlyLeads**, and is now **WP AVCL Automation Helper** to reflect its broader capabilities and cleaner branding.
 
-Guide -
+It was previously published on WordPress.org with 2,000+ active installs and evolved over time based on real user feedback, feature requests, and integrations.
 
-1. Extract the zip file.
-2. Upload `woozap` directory to the `/wp-content/plugins/` directory .
-3. Activate the plugin by the 'Plugins' menu from wp-admin area.
-4. Find a new option under WooCommerce > Wp Fly Leads settings to select options. For Contact Form 7 and Gravity Forms, each form has a new Tab "WP Fly Leads Settings" to select options. 
-5. Please check screenshots for more guidance.
+---
 
+## 📜 Changelog Highlights
 
-== Frequently Asked Questions ==
+- **v2.0–2.4**: WooCommerce automation, webhook triggers, Zapier URL logic
+- **v2.5–3.0**: Major refactor, UI overhaul, new platforms (Make, Pabbly)
+- **v3.1–3.4**: Gravity Forms integration, performance/security updates, admin improvements
 
-= What is Zapier? =
+See full changelog in [`readme.txt`](./readme.txt)
 
-Please visit this url  <a href="https://zapier.com"> https://zapier.com </a>
+---
 
-= What is Integromat? =
+## 🧑‍💻 Author & Contributors
 
-Please visit this url  <a href="https://www.integromat.com"> https://www.integromat.com </a>
+**Ankur Vishwakarma** ([GitHub](https://github.com/ankur0007))  
+- WordPress Core Contributor  
+- Upwork Top Rated Plus  
+- Plugin Developer since 2014
 
+Thanks to [ankitv](https://github.com/) for early contributions.
 
-== Screen Cast ==
+---
 
-Available Soon...
+## 🤝 Contribute
 
-== Changelog ==
+Have feedback, ideas, or want to collaborate?  
+Please open an issue or submit a pull request.
 
-= 1.0 =
-Initial Version released 
+---
 
-= 2.0 =
-* Bug Fixing & Functionality Improvements. 
-* Added trigger button with Woozap URL field to easily configure the path between WooCommerce and Zapier.
+## 💰 Donate
 
-= 2.1 =
-* Bug Fixing & Functionality Improvements. 
-* A new option WP AVCL Automation Helper Zapier Url Count allows more than one connection under WooCommerce > Settings > General Tab > Woozap Zapier Url {number}.
-* In order table added a new column called "Woozap Trigger Summary" that will help admin to see if API triggered or not.
-* Supports custom products and checkout fields to send to Zapier.
+If this plugin helped you, consider supporting development:  
+👉 [Donate via PayPal](http://paypal.me/ankurvishwakarma786)
 
-= 2.2 =
-* Bug fixing and functionality improvements.
-* Triggers Zapier URL when order status changes to any.
-* Included coupons in order info sending to Zapier.
-* Check if Zapier triggers or not in order notes in each order editor in wp-admin.
+---
 
-= 2.3 =
-* Bug fixing and functionality improvements.
-* Separate WP AVCL Automation Helper settings page with brand new options and many new features.
-* Let admin choose when the connection should be triggered on a specific date or specific status change (For WooCommerce Orders).
-* Manual option in each WooCommerce order edit page to send the order to Zapier.
+## 📄 License
 
-= 2.4 =
-* Bug fixing fatal error: undefined function is_wooCommerce_active().
-
-= 2.5 =
-* Bug fixing: Not working when switching from v2.2 to v2.3 or 2.4
-
-= 3.0 =
-* Bug and Security Fixes
-* New and Better UI
-* Supports new server Integromat along with Zapier to send WooCommerce Orders via webhook.
-* Supports Contact Form 7 with a new Tab, "Wp Fly Leads Settings," in each form to set up a connection and send leads to Zapier and Integormat.
-* Moved WP AVCL Automation Helper settings underneath WooCommerce > WP Fly Leads Settings. Also, I applied fixes and corrections to the functionality of this page.
-
-= 3.1 =
-* Bug Fixes
-* Security Updates
-* UI Improvements
-
-= 3.2 =
-* Supports Gravity Forms Submissions Automation
-* Bug Fixes
-* Security Updates
-* UI Improvements
-
-= 3.3 =
-* Bug Fixes
-* Security Updates
+GPL v2 or later
