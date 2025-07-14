@@ -1,0 +1,69 @@
+.wpflyleads {
+  background: #fff;
+  padding: 20px;
+}
+.wpflyleads h3 {
+  padding-top: 10px;
+}
+
+#wpflyleads_setting_form table {
+  margin-top: 50px;
+}
+.wpflyleads-connection div input[type="text"] {
+  padding: 0 5px;
+}
+.wpflyleads-connection div {
+  float: left;
+  padding: 2px;
+  margin-right: 7px;
+}
+.wpflyleads-connection div label {
+  float: left;
+  margin-top: 6px;
+}
+.wpflyleads-connection div input[type="text"] {
+  padding: 0 5px;
+}
+.wpflyleads-connection div select {
+  margin-left: 10px;
+}
+.wpflyleads_settings table {
+  width: 100%;
+}
+.wpflyleads_settings table td,
+.wpflyleads_settings table th {
+  text-align: left;
+}
+.wpflyleads_settings table div input {
+  width: 91%;
+}
+.wpflyleads_settings table td,
+.wpflyleads_settings table tr {
+  padding: 15px 0;
+}
+
+.wpflyleads-table tr th {
+  width: 48% !important;
+}
+.wpflyleads_settings.gf{
+  padding: 10px;
+}
+.wpflyleads_settings.gf table {
+  padding: 15px;
+}
+.wpflyleads_settings.gf tr th, .wpflyleads_settings.gf tr td {
+  display: inline-block;
+}
+.wpflyleads-settings-link {
+  width: 20px !important;
+  height: 20px !important;
+  padding: 0 !important;
+  float: none !important;
+}
+
+.wpflyleads-settings-link:before {
+  background-color: unset !important;
+  border: unset !important;
+  box-shadow: none !important;
+  font-size: 12px !important;
+}
